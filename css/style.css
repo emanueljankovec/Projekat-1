@@ -1,0 +1,1878 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', 'Regular';
+}
+
+p, a, button {
+    font-family: 'Open Sans';
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    padding-left: 0;
+    padding-right: 0;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-img {
+    opacity: 0.1;
+}
+
+.logo {
+    width: 151px;
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Teko', 'Regular';
+    text-transform: uppercase;
+    color: #030303;
+    margin-left: 305px;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 16px 0px 16px 20px;
+    
+}
+
+
+.li-padding {
+    padding: 16px 20px !important;
+}
+
+.dropdown {
+    list-style: none;
+    color: #fff;
+}
+
+.dropdown ul div {
+    display: none; 
+}
+
+.dropdown ul li a {
+    font-family: 'Teko', 'Regular' !important;
+    text-decoration: none;
+    color: #030303;
+    
+}
+
+.div-flex {
+    display: flex;
+    align-content: space-between;
+    position: absolute;
+    left: 0;
+    background-image: url('../img/pattern_2.svg');
+    background-color: #000;
+    background-size: 184px 118px;
+    width: 100%;
+    z-index: 1;
+    transform: translateY(0); 
+}
+
+.inside-nav-bar-1:hover > div {
+      display: block;
+      
+}
+
+.inside-nav-bar-1:hover > div ul .first-dropdown-menu {
+    display: block;
+}
+
+.inside-nav-bar-1:hover > div ul .second-dropdown-menu {
+    display: block;
+}
+.inside-nav-bar-1:hover > div ul .third-dropdown-menu {
+    display: block;
+    margin-right: 0px;
+}
+
+.inside-nav-bar-1:hover > div ul .dropdown-brandnuetips {
+    display: block;
+}
+.inside-nav-bar-1:hover > div ul .dropdown-brandnuetips div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 140px;
+    margin-top: -135px;
+    margin-left: 190px;
+    
+}
+
+.inside-nav-bar-1:hover > div ul .dropdown-brandnuetips div p {
+    margin-left: 0px;
+}
+.first-dropdown-menu {
+    margin: 0px;
+}
+
+.nav-bar-dropdown {
+    display: flex;
+    align-content: space-between;
+    width: 1110px;
+    padding-left: 0px;
+}
+
+.nav-bar-dropdown li {
+    display: flex; 
+    border-bottom: 3px solid #fff;
+    width: 240px;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.nav-bar-dropdown h2 {
+    margin-top: 50px;
+    
+}
+
+.nav-bar-dropdown li img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0px;
+    margin-top: 7px;
+    
+}
+
+.nav-bar-dropdown a{
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+.nav-bar-dropdown a:hover {
+    color: #3BFFB4 !important;
+}
+
+
+.inside-nav-bar-1:hover > .nav-bar-dropdown {
+    color: #fff;
+    display: block;
+    
+}
+
+
+
+
+
+.inside-nav-bar-2:hover > div {
+    display: block;
+}
+
+.margin-dropwdonw {
+    margin-bottom: 50px !important;
+}
+
+.inside-nav-bar-2:hover > div ul {
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    background-image: url('../img/pattern_2.svg');
+    background-color: #000;
+    background-size: 184px 118px;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    
+}
+
+.dropdown-brandnuetips {
+    display: flex;
+    background-color: #fff;
+    width: 470px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.dropdown-brandnuetips img {
+    margin-left: 0px;
+    width: 170px;
+    height: 140px;
+}
+
+.p-color {
+    color: #959595 !important;
+}
+
+.dropdown-brandnuetips div p {
+    color: #030303;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.dropdown-brandnuetips div h3 {
+    color: #000;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.dropdown-brandnuetips div {
+    margin: 15px 0px 0px 20px
+}
+
+.third-dropdown-menu h2 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.third-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.third-dropdown-menu h3 {
+    transition: 0.3s;
+}
+
+.third-dropdown-menu h3:hover {
+    color: #3BFFB4;
+}
+
+.arrow {
+    width: 13px;
+    margin-top: 13px;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.nav-links li div ul {
+    color: #fff;
+}
+
+.patternt-img-w {
+    position: relative;
+    background-image: linear-gradient(#fff,#fff),url('../img/pattern1.svg');
+    background-size: 100% 0%, 184px 118px;
+    background-repeat: no-repeat, repeat;
+    height: 290px;
+    max-width: 100vw;
+    padding: 45px 15px 40px;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.main-container {
+    position: relative;
+    margin-top: -210px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1110px;
+    border: 1px solid #EFEFEF;
+    background-color: #FFFFFF;
+}
+
+.head-img {
+    display: flex;
+    background-image: url('../img/bundesliga-spieltag-schalke-imago0049294069h.jpg');
+    background-size: cover;
+    width: 540px;
+    height: 315px;
+    margin-left: 0;
+}
+
+.main-container div p {
+    display: flex;
+    font-size: 12px;
+    line-height: 26px;
+    color: #030303;
+}
+
+.main-container div h2 {
+    display: flex;
+    font-size: 40px;
+    line-height: 44px;
+    color: #030303;
+}
+
+.text {
+    padding-left: 40px;
+    width: 570px;
+    margin-top: 40px;
+}
+
+.head-text {
+    border: 2px solid #000000;
+    padding: 3px;
+    padding-left: 10px;
+    width: 111px;
+    height: 37px;
+    text-align: center; 
+}
+
+.head {
+    display: flex;
+    height: 56px;
+    width: 237px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.div-button-1 a {
+    padding-left: 0px;
+    margin-left: 132px;
+}
+
+.button-1 {
+    width: 200px;
+    height: 56px;
+    cursor: pointer;
+    padding-left: 0px;
+    border: 2px solid #030303;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    box-shadow: inset 2px 2px #3BFFB4, 3px 3px #3BFFB4;
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.navbar-links {
+    display: none;
+}
+
+.button-1:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: inset 0px 0px #3BFFB4, 3px 3px #3BFFB4;
+}
+
+.by-text {
+    margin: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+#head-img-bw {
+    width: 56px;
+    height: 56px;
+}
+
+.buttons {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-none {
+    display: none;
+}
+.main-button {
+    cursor: pointer;
+    width: 255px;
+    height: 60px;
+    margin: 0;
+    margin-top: 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-left: 4px solid #000;
+    border-top: 4px solid #000;
+    border-right: 4px solid #3BFFB4;
+    border-bottom: 4px solid #3BFFB4;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.main-button:hover {
+    background-color: #3BFFB4;
+    border-left: 4px solid #3BFFB4;
+    border-top: 4px solid #3BFFB4;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.button-margin {
+    margin-left: -30px !important;
+}
+
+#alle-sport {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 255px;
+    height: 60px;
+    margin: 0;
+    margin-top: 80px;
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    border: 4px solid #000;
+    text-align: left;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.unread-news {
+    position: absolute;
+    margin-left: 185px;
+    width: 30px;
+    height: 30px;
+    background-color: #3BFFB4;
+    border-radius: 50%;
+    text-align: center;
+    color: #0F0F0F;
+}
+
+.main-button:hover .unread-news {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.arrow-alle-sport{
+    position: absolute;
+    margin-left: 130px;
+    width: 5px;
+    height: 24px;
+}
+
+.arrow-alle-sport img {
+    width: 5px;
+    height: 24px;
+    margin-left: 3px;  
+}
+
+#alle-sport:hover {
+    color: #FFFFFF;
+    background-color: #000;  
+}
+
+.arrow-alle-sport {
+    background-image: url('../img/moreIconBlack.svg');
+}
+
+#alle-sport:hover .arrow-alle-sport {
+    background-image: url('../img/moreIconWhite.svg');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.row {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-1 {
+    width: 730px;
+    margin: 0;
+}
+
+.row-1 h2,
+.row-2 h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 84px;
+    margin-bottom: 8px;
+}
+
+.row-2 {
+    width: 350px;
+    margin: 0;
+}
+
+.row-1-logo {
+    display: flex;
+    border: 2px solid #EFEFEF;
+    height: 192px;
+    margin-bottom: 10px;
+}
+
+#inter-win {
+    width: 48px;
+    height: 48px;
+    margin-top: -6px;
+}
+
+.stars {
+    font-size: 8px;
+    margin-left: -2px;
+    
+}
+
+.logo-name-star {
+    display: flex;
+    margin: 30px 0px 0px 30px;
+
+}
+.row-stars {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.row-stars h4 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.price {
+    display: flex;
+}
+
+.price h1 {
+    font-size: 56px;
+    line-height: 81px;
+    font-family: 'Teko', 'Regular';
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.price p {
+    font-size: 22px;
+    line-height: 20px;
+    font-family: 'Teko', 'Regular';
+    margin-left: 10px;
+    text-align: left;
+}
+.betway {
+    cursor: pointer;
+    background-color: #3BFFB4;
+    margin-top: 24px;
+    border: 2px solid #3BFFB4;
+    width: 134px;
+    height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    box-shadow: inset 0px 0px #000, 3px 3px #000;
+    transition: 0.3s;
+}
+
+.betway:hover {
+    border: none;
+    color: #FFFFFF;
+    background-color: #000;
+    box-shadow: inset 0px 0px #3BFFB4, 3px 3px #3BFFB4;
+}
+
+.betway-div {
+    margin-right: 30px;
+}
+
+.text-in-box {
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+    position: absolute;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Open Sans', 'Regular';
+    display: block;
+    width: 666px;
+    height: 72px;
+    margin-top: 100px;
+    overflow: auto;
+    margin-left: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #3BFFB4; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #000; 
+}
+
+.right-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E5E5E5;
+    margin-bottom: 12px;
+}
+
+.admiral-bet {
+    margin: 0px;
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.title-stars {
+    margin: 20px 0px 0px -10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title-stars h4 {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Teko', 'Regular';
+}
+
+.title-stars span {
+    font-size: 8px;
+}
+
+.score {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding: 0;
+}
+
+
+.score h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 56px;
+    line-height: 81px;
+}
+
+.score p {
+    font-size: 18px;
+    line-height: 17px;
+    font-family: 'Teko', 'Regular';
+}
+
+.right-button {
+    margin: 0;
+    display: flex;
+}
+.right-button a {
+    height: 0px;
+}
+
+.right-buttons {
+    cursor: pointer;
+    border: 2px solid #030303;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    box-shadow: inset 2px 2px #3BFFB4, 3px 3px #3BFFB4;
+    transition: 0.3s;
+    background-color: #fff;
+    height: 37px;
+    margin-top: 15px;
+    width: 100px;
+}
+
+.right-buttons:hover {
+    color: #FFFFFF;
+    background-color: #000;
+    box-shadow: inset 0px 0px #3BFFB4, 3px 3px #3BFFB4
+}
+
+#section-3 {
+    margin-top: 82px;
+    position: relative;
+    background-image: linear-gradient(#fff,#fff),url('../img/pattern1.svg');
+    background-size: 100% 0%, 184px 118px;
+    background-repeat: no-repeat, repeat;
+    width: 100%;
+}
+
+#row-on-section {
+    padding-top: 82px;
+}
+#section-3-row {
+    display: flex;
+    width: 1110px;
+    background-color: #FFFFFF;
+    align-content: space-between;
+    border-top: 4px solid #3BFFB4;
+}
+
+.head-like {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 63px 0px 63px;
+}
+
+.head-like div img {
+    width: 109px;
+    height: 109px;
+}
+
+#metthais p {
+    font-size: 13px;
+    line-height: 26px;
+    margin-bottom: 17px;
+}
+
+#meine p {
+    font-size: 13px;
+    line-height: 26px;
+    border: 2px solid #000;
+    padding: 4px 12px 4px 12px;
+}
+
+.service {
+    display: flex;
+    background-color: #000000; 
+    width: 100%;
+    margin-right: 0;
+}
+
+.span-color h4{
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 33px;
+    margin-left: -40px;
+    margin-top: 14px;
+
+}
+
+#bet365-2 {
+    width: 64px;
+    height: 64px;
+}
+
+.display {
+    display: flex;
+    margin-left: 0px;
+}
+
+.stars-2 {
+    font-size: 16px;
+}
+
+.row-stars-2 {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.new-margin-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 41px 0px 0px 45px;
+}
+
+.great-service {
+    display: flex;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 44px;
+    font-family: 'Teko', 'Regular';
+    text-align: left;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.great-service-text {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 22px;
+    width: 368px;
+    height: 72px;
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+.great-customer {
+    color: #FFFFFF;
+    margin-top: 128px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans', 'Regular';
+    margin-bottom: 30px;
+}
+
+.cusstomer {
+    margin-bottom: 21px;
+}
+
+.score-color {
+    color: #FFFFFF;
+}
+
+.score-color h1 {
+    font-weight: normal;
+    font-size: 102px;
+    line-height: 146px;
+    color: #3BFFB4;
+    font-family: 'Teko', 'Regular';
+}
+
+.score-color p {
+    font-size: 31px;
+    line-height: 33px;
+    font-family: 'Teko', 'Regular';
+}
+
+.zum-test {
+    margin-top: -12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.button-bet365 {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    width: 165px;
+    height: 56px;
+    background-color: #3BFFB4;
+    box-shadow: inset 0px 0px #EFEFEF, 3px 3px #EFEFEF;
+    transition: 0.3s;
+}
+
+.button-bet365:hover {
+    color: #FFFFFF;
+    background-color: #000;
+    box-shadow: inset 0px 0px #3BFFB4, 3px 3px#3BFFB4
+}
+
+#button-margin {
+    margin-top: 24px;
+}
+
+.text-under-row {
+    display: flex;
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #959595;
+    text-align: center;
+    
+}
+
+.text-under-row p {
+    margin-bottom: 20px;
+}
+
+#section-4 {
+    width: 1110px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+#section-4 h2 {
+    margin-top: 81px;
+    
+}
+
+.div-1 {
+    display: flex;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 1px solid #959595;
+}
+
+.bundesliga {
+    margin-top: 40px;
+    
+}
+
+.bundesliga h3 {
+    color: #000;
+}
+
+.bundesliga p {
+    color: #030303;
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.bundesliga h3 {
+    margin-left: 30px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.div-1 img {
+    width: 200px;
+}
+
+.updated {
+    display: flex;
+    align-content: space-between;
+    color: #959595;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.updated-p {
+    color: #959595 !important;
+    margin-right: 0px !important;
+} 
+
+.views {
+    color: #959595 !important;
+    margin-left: 20px !important;
+}
+
+#divs {
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 82px;
+}
+.mein-div {
+    margin-right: 15px;
+}
+
+.mein-div a {
+    text-decoration: none;
+    
+}
+
+#section-5 {
+    background-color: #F7F7F7;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe div h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 74px;
+    margin-bottom: 30px;
+}
+
+.tipps-heute {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.heute {
+    margin-right: 82px;
+}
+
+.icon-check {
+    width: 19px;
+    height: 16px;
+}
+
+.easy-zum {
+    margin-left: 60px;
+}
+.type-email {
+    display: flex;
+    margin-bottom: 60px;
+
+}
+
+.type-email input {
+    width: 562px;
+    height: 78px;
+}
+
+.type-email a button {
+    border: none;
+    width: 335px;
+    height: 74px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 11px;
+    box-shadow: inset 0px 0px #3BFFB4, 4px 4px #3BFFB4;
+    transition: 0.3s;
+}
+
+.type-email a button:hover {
+    color: #000;
+    background-color: #3BFFB4;
+    box-shadow: inset 0px 0px #000000, 4px 4px #000000;
+}
+
+::placeholder {
+    font-size: 17px;
+    line-height: 24px;
+    color: #0F0F0F;
+    font-family: 'Open Sans';
+}
+
+#type-style {
+    font-size: 17px;
+    line-height: 24px;
+    padding-left: 29px;
+}
+
+#section-6 {
+    border-bottom: 2px solid #E5E5E5;
+    position: relative;
+    background-image: linear-gradient(#fff,#fff),url('../img/pattern_2.svg');
+    background-size: 100% 0%, 184px 118px;
+    background-repeat: no-repeat, repeat;
+    width: 100%;
+    background-color: black;
+}
+.section-6-row {
+    width: 1110px;
+    display: flex;
+    align-content: space-between;
+}
+.row-btns-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.colum-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px 30px 0px;
+}
+
+.colum-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.colum-1 a button, .colum-2 a button {
+    cursor: pointer;
+    border: none;
+    background-color: #030303;
+    color: #FFFFFF;
+    width: 345px;
+    height: 64px;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 27px;
+}
+
+.colum-1 a button:hover, .colum-2 a button:hover {
+    outline: 2px solid #3BFFB4;
+}
+
+.colum-1 a button span img, .colum-2 a button span img {
+    float: right;
+    width: 12px;
+    height: 10px;
+    margin-right: 21px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+
+.contact div h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    width: 206px;
+    height: 79px;
+    margin-left: 15px;
+}
+
+.phone-mail {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mobile-1 img, .mobile-2 img {
+    width: 41px;
+    height: 41px;
+}
+
+.mobile-1, .mobile-2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mobile-1 a, .mobile-2 a {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.mobile-1 p, .mobile-2 p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.mobile-1 {
+    margin-right: 30px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+}
+
+.twitter {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#twitter-logo {
+    margin-top: 32px;
+    width: 65px;
+    height: 65px;
+}
+
+.twitter i {
+    color: #50ABF1;
+}
+
+.plus-18 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.wettfreunde {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+#gt {
+    width: 54px;
+    height: 49px;
+}
+
+.logos {
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.text-footer {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.plus-18-logo {
+    margin-right: 30px;
+}
+
+.main-container-page-2 {
+    margin-top: 0px;
+}
+
+#page-2-section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-2-h2 {
+    width: 1110px;
+    margin-top: 84px;
+    margin-bottom: 0px;
+}
+
+.page-2-h2 h2 {
+    font-size: 30px;
+    line-height: 44px;
+    text-align: left;
+    color: #030303;
+}
+
+.buttons div {
+    margin: 0px auto;
+}
+.home {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .main-container {
+        width: 1050px;
+    }
+    #section-3-row {
+        width: 1050px;
+    }
+    .row  {
+        width: 1050px;
+    }
+    #section-4 {
+        width: 1050px;
+    }
+    header {
+        width: 1050px;
+    }
+    
+    .buttons {
+        width: 1050px;
+    }
+    .row-1 {
+        width: 690px;
+    }
+    .row-2 {
+        width: 330px;
+    }
+    
+    .button-margin {
+        margin-left: -10px !important;
+    }
+    .div-button-1 a {
+        margin-left: 102px;
+    }
+    .nav-links {
+        margin-left: 245px;
+        
+    }
+    .text-in-box {
+        width: 628px;
+    }
+    .head-like {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .main-container {
+        width: 950px;
+    }
+    #section-3-row {
+        width: 950px;
+    }
+    #section-4 {
+        width: 950px;
+    }
+    header {
+        width: 950px;
+    }
+    .buttons {
+        width: 950px;
+        
+    }
+    .section-6-row {
+        width: 950px;
+    }
+    .div-button-1 a {
+        margin-left: 62px;
+    }
+    .nav-links {
+        margin-left: 150px;
+        
+    }
+    .buttons-none {
+        display: flex;
+    }
+    .margin-top-1 {
+        margin-top: 80px !important;
+    }
+    .margin-top-2 {
+        margin-top: 10px !important;
+    }
+    .main-button {
+        margin-top: 0px;
+        width: 453px;
+        height: 57px;
+    }
+    .margin-left {
+        margin-right: 10px !important; 
+    }
+    #alle-sport {
+        margin-top: 0px;
+        width: 453px;
+        height: 57px;
+    }
+    .arrow-alle-sport {
+        margin-left: 320px;
+    }
+    .unread-news {
+        margin-left: 370px;
+    }
+    .display-none {
+        display: none;
+    }
+    .row-btns-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .colum-1 {
+        margin-bottom: 0px;
+    }
+    .colum-2 {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    .row {
+        width: 950px;
+    }
+    .row-1 {
+        width: 611px;
+    }
+    .row-2 {
+        width: 290px;
+        margin-left: 0px;
+    }
+    .text-in-box {
+        width: 543px;
+    }
+    .right-buttons {
+        height: 48px;
+    }
+    .right-button a {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .title-stars {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .score {
+        margin-right: 10px;
+    }
+    .service {
+        width: 100%;
+    }
+    .great-service-text {
+        width: 310px;
+    }
+    .div-1 {
+        width: 450px;
+    }
+    .bundesliga {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        width: 750px;
+    }
+    #section-3-row {
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .head-like {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: center;
+        width: 350px;
+    }
+    #section-4 {
+        width: 750px;
+    }
+    header {
+        width: 750px;
+    }
+    .buttons {
+        width: 750px;
+    }
+    .main-button {
+        margin-top: 0px;
+        width: 353px;
+        height: 57px;
+    }
+    #alle-sport {
+        margin-top: 0px;
+        width: 353px;
+        height: 57px;
+    }
+    .div-button-1 a {
+        margin-left: 62px;
+    }
+    .nav-links {
+        margin-left: 150px;
+        
+    }
+    .div-1 {
+        width: 360px;
+    }
+    .div-1 img {
+        width: 150px;
+    }
+    .bundesliga h3 {
+        font-size: 20px;
+    }
+    .unread-news {
+        margin-left: 270px;
+    }
+    .arrow-alle-sport {
+        margin-left: 220px;
+    }
+    .button-1 {
+        width: 120px;
+        margin-left: -10px;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+    .toggle-button {
+        display: flex;
+        z-index: 5;
+    }
+    #toggle {
+        margin-right: 20px;
+    }
+
+    #head-logo {
+        margin-left: 10px;
+    }
+    
+    #logo-margin {
+        margin-left: 0px;
+    }
+    
+    .open {
+        position: relative;
+        background-image: url('../img/icon_x_table.svg');
+        width: 28px;
+        height: 29px;
+        
+    }
+
+    .right-row {
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        display: block;
+        flex-direction: column;
+        
+    }
+    
+    .navbar-links {
+        height: 100vh;
+        background-image: url('../img/pattern_2.svg');
+        background-color: #000;
+        background-size: 184px 118px;
+        display: none;
+        position: relative;
+        z-index: 3;
+        margin-top: -101px;
+        
+        
+    }
+
+
+    .navbar-links.active {
+        display: block;
+        width: 100%;
+    }
+    .home.active {
+        display: block;
+        position: absolute;
+        z-index: 4;
+        left: 20px;
+        top: 20px;
+        transition: 0.3s;
+    }
+    .home.active:hover {
+        color: #3BFFB4;
+    }
+    .home {
+        color: #fff;
+        font-size: 25px;
+        line-height: 30px;
+        text-decoration: none;
+        font-family: 'Teko';
+    }
+
+    .bar-2 {
+        display: none;
+    }
+    
+    
+    .navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .navbar-links li {
+        list-style: none;
+        border: 2px solid #fff;
+        background-color: #000000;
+        width: 750px;
+        text-align: center;
+        padding: 10px;
+        transition: 0.3s;
+    }
+    .navbar-links a {
+        margin: 0px 20px 20px 20px;
+        
+    }
+    .navbar-links li:hover {
+        background-color: #3BFFB4;
+        color: #000000;
+    }
+   
+    
+    .navbar-links a li {
+        text-decoration: none;
+        color: #fff;
+        font-size: 35px;
+        line-height: 42px;
+        font-family: 'Teko', 'Regular';
+        text-transform: uppercase; 
+        
+        
+    }
+
+    .mobile-menu-margin {
+        margin-top: 100px !important;
+        
+    }
+    .row {
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .row-1 {
+        width: 100%;
+    }
+    .text-in-box {
+        width: 687px;
+    }
+    .row-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-links.active {
+        display: block;
+        width: 100%;
+    }
+    .section-6-row {
+        width: 750px;
+    }
+    .navbar-links li {
+        width: 612px;
+        
+    }
+    .home.active {
+        position: absolute;
+        left: 20px;
+        z-index: 5;
+    }
+    .type-email input {
+        width: 400px;
+    }
+    .type-email a button {
+        width: 300px;
+    }
+    /* .toggle-button {
+        position: relative;
+    } */
+    
+
+}
+ 
+@media (max-width: 800px) {
+    #section-3-row {
+        max-width: 100%;
+    }
+    #divs {
+        flex-direction: column;
+    }
+    .mein-div, .mein-div-2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .type-email input {
+        width: 300px;
+    }
+    .type-email a button {
+        width: 200px;
+    }
+    .main-container {
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-6-row {
+        flex-direction: column;
+        width: 100%;
+    }
+    .colum-1 a button, .colum-2 a button {
+        text-align: center;
+    }
+    .contact div h2 {
+        width: 100%;
+    }
+    .row-btns-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .contact {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .head-img {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .button-1 {
+        width: 200px;
+        height: 56px;
+        margin-left: 70px;
+    }
+    .main-button, #alle-sport {
+        width: 283px;
+
+    }
+    .margin-top-2 {
+        margin-top: 10px !important;
+    }
+    .unread-news {
+        margin-left: 210px;
+    }
+    .arrow-alle-sport {
+        margin-left: 160px;
+    }
+    .margin-left {
+        margin-right: 10px !important;
+    }
+    .row {
+        display: block;
+        max-width: 90%;
+    }
+    .text-in-box {
+        
+        display: block;
+        width: 80%;
+    }
+    #section-4 {
+        width: 90%;
+    }
+    header {
+        width: 576px;
+    }
+    .buttons {
+        display: block;
+        max-width: 576px;
+    }
+    .navbar-links.active {
+        display: block;
+        width: 100%;
+    }
+    .navbar-links li {
+        width: 100%;
+        
+    }
+
+    .div-1 {
+        width: 100%;
+        height: 116px;
+    }
+
+    .colum-1 button {
+        width: 100%;
+    }
+    .colum-2 {
+        width: 100%;
+    }
+    .colum-2 button {
+        width: 100%;
+    }
+
+
+    .bundesliga p, .updated p {
+        font-size: 10px;
+    }
+    .bundesliga h3 {
+        font-size: 18px;
+        line-height: 22px;
+        
+    }
+    .logos div img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* .toggle-button {
+        position: relative;
+        left: 230px;
+    } */
+    
+}
+@media (max-width: 760px) {
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+    .display {
+        margin-left: 0px;
+    }
+    .new-margin-1 {
+        align-self: center;
+        margin-right: 0px;
+    }
+    .score-div {
+        display: flex;
+    }
+    .zum-test {
+        margin: 0px 20px 0px 20px;
+    }
+    .zum-test, #button-margin {
+        align-self: center; 
+        margin-top: 0px;   
+    }
+    .great-customer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+    }
+    .div-button-1 a {
+        margin-left: 0px;
+    }
+    /* .toggle-button {
+        position: relative;
+        left: 190px;
+    } */
+    .buttons {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .main-button, #alle-sport {
+        max-width: 180px;
+    }
+    .button-1 {
+        max-width: 180px;
+        margin-left: 10px;
+    }
+
+    .margin-left {
+        margin-right: 0px !important;
+    }
+    .text {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .main-container {
+        width: 90%;
+    }
+    .unread-news {
+        margin-left: 115px;
+        width: 25px;
+        height: 25px;
+    
+    }
+    .arrow-alle-sport {
+        margin-left: 60px;
+    }
+    .main-button {
+        font-size: 12px;
+    }
+
+    .subscribe {
+        width: 90%;
+    }
+
+    .type-email input {
+        width: 203px;
+        height: 50px;
+    }
+
+    .type-email a button {
+        width: 126px;
+        height: 48px;
+    }
+
+    
+    ::placeholder {
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .easy-zum {
+        margin-left: 0px;
+    }
+
+    .heute {
+        margin-right: 0px;
+    }
+    .tipps-heute p {
+        font-size: 10px;
+    }
+    #middle-p {
+        margin: 0px 30px 0px 30px;
+    }
+    .logos div img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .margin-top-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .margin-top-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-button, #alle-sport {
+        max-width: 100%;
+    }
+    .unread-news {
+        margin-left: 205px;
+    }
+    .arrow-alle-sport {
+        margin-left: 152px;
+    }
+}
